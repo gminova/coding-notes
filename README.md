@@ -4,7 +4,6 @@
 
 >_Founders and Coders is a UK-based nonprofit organisation offering a full-time 18 week Web Development course in HTML, CSS, JavaScript, Node.JS._
 
-------------------------------------------------------------------------------------- 
 # Curriculum:  
 
 ## Week 1 - Git & GitHub, Accessibility, Semantic HTML, CSS and Pair Programming
