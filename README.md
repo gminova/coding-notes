@@ -6,7 +6,7 @@
 
 # Curriculum:  
 
-## [Week 1](https://github.com/gminova/coding-notes/tree/master/week1) - Git & GitHub, Accessibility, Semantic HTML, CSS and [Pair Programming](https://github.com/gminova/coding-notes/blob/master/week1/pair-programming.md)
+## [Week 1](https://github.com/gminova/coding-notes/tree/master/week1) - [Git & GitHub](https://github.com/gminova/coding-notes/blob/master/week1/github-flow.md), [Accessibility](https://github.com/gminova/coding-notes/blob/master/week1/accessibility.md), Semantic HTML, CSS and [Pair Programming](https://github.com/gminova/coding-notes/blob/master/week1/pair-programming.md)
 ## Week 2 - Testing
 ## Week 3 - APIs
 ## Week 4 & 5 - Node.JS
