@@ -108,6 +108,10 @@ Now that your changes have been verified in production, it is time to have someo
 
 Once merged, Pull Requests preserve a record of the historical changes to your code. Because they're searchable, they let anyone go back in time to understand why and how a decision was made.
 
+## **13. Delete old branches**
+
+You can delete old branches using the GitHub GUI if they are no longer needed.
+
 ## **We are done! Just kidding, repeat this all over again, and again, and again.**
 
 ![happy cat](https://carwad.net/sites/default/files/cat-animated-104985-4895908.gif)
