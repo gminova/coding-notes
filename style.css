@@ -1,0 +1,243 @@
+/*MOBILE FIRST DESIGN*/
+html {
+    scroll-behavior: smooth;
+}
+
+/*BODY*/
+.home-page {
+    padding: 0;
+    margin: 0;
+    font-family: 'Spectral', serif;
+    font-size: 1em;
+}
+.heading {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1em;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.heading--page {
+    padding-top: 50px;
+}
+
+/*NAVIGATION*/
+.header-menu {
+    height: 52px;
+    top: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 150px;
+    width: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.heading--logo {
+    text-align: left;
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+
+.heading--menu:hover,
+.heading--dropdown__item:hover {
+    animation-name: ease-in;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes ease-in {
+
+    from {
+     opacity: 0.5;
+     font-size: 100%;
+    }
+
+    to {
+     opacity: 1.0;
+    }
+
+}
+
+.heading--menu {
+    border: none;
+    color: whitesmoke; 
+    background-color: #282828;
+    height: 52px;
+}
+
+.heading--menu,
+.heading--dropdown {
+    text-align: right;
+    color: whitesmoke; 
+    background-color: #282828;
+}
+
+.heading--dropdown {
+    padding: 0;
+}
+
+.heading--dropdown__item {
+    padding: 10px;
+}
+
+.heading--dropdown__item__link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.heading--dropdown__item__link:hover {
+    color: #282828;
+}
+
+.heading--menu:hover,
+.heading--dropdown__item:hover {
+    color: #282828; 
+    background-color: whitesmoke;
+}
+
+.heading--dropdown {
+    display: none;
+    grid-column-start: 2;
+    min-width: 150px;
+    list-style: none;
+}
+
+.hidden {
+    display: block;
+    grid-column-start: 2;
+    min-width: 100px;
+    list-style: none;
+}
+
+/*PAGE*/
+.heading--page {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.text {
+    margin: 10px 30px;
+    text-align: justify;
+}
+
+/*CONTACT FORM*/
+.contact-form {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 0.8em;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    align-items: center;
+    background-color:#2222;
+    padding: 10px 10px;
+    margin: auto;
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.contact-form__field {
+    min-height: 25px;
+    font-family: 'Gloria Hallelujah', cursive;
+} 
+
+.contact-form__button {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #282828;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.contact-form__button:hover {
+    opacity: 0.8;
+}
+
+/*FOOTER*/
+.footer {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #3A3A3A;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 1em;
+    min-height: 200px;
+    margin-top: 60px;
+    box-shadow: 0px -2px 3px 2px rgba(0, 0, 0, 0.288);
+}
+
+.footer__section--left {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.footer__section--right {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.heading--footer {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footer__list {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.footer__list__link {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 0;
+}
+
+.footer__list__link:hover {
+    opacity: 0.6;
+}
+
+.heading--copyright {
+    color: whitesmoke;
+    background-color: #282828;
+    font-size: 0.6em;
+    margin: auto;
+    text-align: center;
+}
+
+/*DESKTOP VERSION*/
+@media screen and (min-width: 900px) {
+    .heading--page {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+    .text {
+        font-size: 1.3em;
+        max-width: 800px;
+        display: block;
+        margin: auto;
+    }
+    .footer {
+        font-size: 1em;
+    }
+    .footer__section--left {
+        padding-left: 30px;
+    }
+    
+    .footer__section--right {
+        padding-right: 30px;    
+    }
+
+    .heading--copyright {
+        font-size: 1em;
+    }
+    
+}
