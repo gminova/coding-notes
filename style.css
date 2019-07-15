@@ -219,7 +219,10 @@ html {
         display: block;
         margin: auto;
     }
-    .footer {
+
+    .contact-form,
+    .footer,
+    .heading--copyright {
         font-size: 1em;
     }
     .footer__section--left {
@@ -229,9 +232,4 @@ html {
     .footer__section--right {
         padding-right: 30px;    
     }
-
-    .heading--copyright {
-        font-size: 1em;
-    }
-    
 }
